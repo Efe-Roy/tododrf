@@ -1,0 +1,11 @@
+Send Request
+POST http://127.0.0.1/auth/registration/ HTTP/1.1
+
+Content-Type: application/json
+
+{
+    "username" : "roy"
+    "password1" : "test12345"
+    "password2" : "test12345"
+    "email" : "roy@gmail.com"
+}
